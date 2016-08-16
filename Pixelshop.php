@@ -1,6 +1,6 @@
 <?php
 
-require_once 'api/Export.php';
+require_once 'Pixelshop/Export.php';
 
 class Pixelshop {
     
