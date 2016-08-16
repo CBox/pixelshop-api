@@ -10,12 +10,12 @@ class Pixelshop_Export {
      * Export product to Pixelshop through API
      * @param products array an array of product information.
      *           - product[] struct a single product information.
-     *               - product_id unique product id
+     *               - sync_id unique product id
      *               - link string url to the product to purchase
      *               - title string the product title
      *               - description string the product description
      *               - price integer the product price
-     *               - thumbnail string url to the thumbnail
+     *               - thumb string url to the thumbnail
      *               - tags string comma seperated tags
      * @return string status of the export
      */
